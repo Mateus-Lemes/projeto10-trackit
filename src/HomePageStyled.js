@@ -26,6 +26,9 @@ form {
         box-sizing: border-box;
         border-radius: 5px;
         margin-bottom: 6px;
+        font-size: 19px;
+        font-weight: 400;
+        padding-left: 11px;
 
         &::placeholder {
             width: 54px;
@@ -34,7 +37,6 @@ form {
             font-size: 19.976px;
             line-height: 25px;
             color: #DBDBDB;
-            padding-left: 11px;
         }
     }
 
@@ -48,7 +50,7 @@ form {
         font-size: 20.976px;
         line-height: 26px;
         color: #FFFFFF;
-        
+        margin-bottom: 25px;
     }
 }
 
@@ -61,7 +63,18 @@ p {
     text-align: center;
     text-decoration-line: underline;
     color: #52B6FF;
-    margin-top: 25px;
+}
+
+.opacity {
+    opacity: 0.7;
+
+    input {
+        background: #f2f2f2;
+        color: #AFAFAF;
+        font-weight: 400;
+        font-size: 19.976px;
+        line-height: 25px;
+    }
 }
 `
 
