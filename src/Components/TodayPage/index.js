@@ -1,5 +1,7 @@
+import Header from "../Header"
+
 export default function TodayPage() {
     return (
-        <p>foi</p>
+        <Header />
     )
 }
